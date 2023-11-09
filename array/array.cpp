@@ -33,6 +33,13 @@ int main()
     char arr5[11];
     strcpy(arr5, arr3);
     strcat(arr5, arr4);
+
+    /**
+     * Strcpy copies the contents of the second string into the first string.
+     *
+     * Strcat appends the contents of the second string to the first string.
+     */
+
     cout << "Example 8 => Concatenating two arrays of characters : " << arr5 << endl; // Output: HelloWorld
 
     // Example 9: Declaring a 2D array
